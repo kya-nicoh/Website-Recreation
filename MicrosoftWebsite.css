@@ -1,0 +1,171 @@
+ul.dif{
+    margin-left:75px;
+    margin-right:75px;
+    padding:0;
+    overflow:hidden;
+    list-style-type:none;
+    
+    /*Use this for fixed nav bar
+    position: fixed;
+    top: 0;
+    width: 100%; */
+}
+ul.dif li {
+    float: left;
+}
+ul.dif li a{
+    display:inline-block;
+    padding:0px 10px;
+    margin:0;
+    text-align:center;
+    text-decoration: none;
+    color:black;
+}   
+#table{
+    border:1px solid black;
+    padding:0px 5px;
+}
+#table:hover{
+    text-decoration:underline;
+}
+ul.dif li a:hover{
+    border-bottom:2px solid;
+    padding:0px 10px;
+    transition:.2s;
+}
+#bida:hover{
+    color:skyblue;
+    border: none;
+    transition:.2s;
+}
+hr{
+    color:gray;
+}
+.parallax{
+    background-image:url(OfficeWork.jpg);
+    min-height: 500px;
+    height:400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.caption{
+    position:absolute;
+    left:0;
+    top:50px;
+    width:100%;
+    text-align: center;
+    color:#000;
+    
+    padding:200px 20px;
+}
+.span{
+    color:black;
+    font-size:25px;
+    background-color: whitesmoke;
+    margin-left:100px;
+    opacity:.6;
+    margin-right:100px;
+    padding:0px 30px;
+    letter-spacing: 10px;
+}
+
+/* Articles */
+.articles{
+    margin:50px 50px;
+}
+.articles p{
+    text-align:center;
+    font-size: 20px;
+    padding:50px 30px;
+    color:gray;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    margin:50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    opacity:.8;
+    transition:.5s;
+}
+table{
+    align-items: center;
+}
+table tr th{
+    padding:0px 150px;
+    font-size:30px;
+}
+/* left right */
+#second{
+    background-color:#f3f1f1;
+}
+
+#second img{
+    width: 500px;
+    height: 300px;
+    margin:0 50px;
+}
+#second div{
+    float:right;
+    background-color: transparent;
+    width:600px;
+    margin:50px 50px;
+    font-size:25px;
+}
+#second div b{
+    font-size:30px;
+}
+#third img{
+    width: 500px;
+    height: 300px;
+    margin:0 50px;
+    padding-left:75px
+}
+#third div{
+    float:left;
+    background-color: transparent;
+    width:600px;
+    margin:50px 50px;
+    font-size:25px;
+    padding-left:50px;
+}
+#third div b{
+    font-size:30px;
+}
+/* New */
+#another{
+    background-image:url(OfficeWork2.jpg);
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#another div{
+    float:left;
+    width:500px;
+    margin:50px 50px;
+    font-size:25px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+}
+#another div b{
+    font-size:30px
+}
+#another div a{
+    text-decoration: none;
+    color:white;
+}
+
+/*  */
